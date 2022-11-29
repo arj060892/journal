@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5bd1ae5f-a01f-4127-b06b-fbf51e6131ea": {
+      "ProjectGuid": "5bd1ae5f-a01f-4127-b06b-fbf51e6131ea",
+      "DisplayName": "JournalApp",
+      "ColorIndex": 0
+    },
+    "2012bcbb-78ea-4ff4-bbdb-ee8ec583c911": {
+      "ProjectGuid": "2012bcbb-78ea-4ff4-bbdb-ee8ec583c911",
+      "DisplayName": "API",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

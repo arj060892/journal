@@ -1,0 +1,53 @@
+<div class="row align-items-center">
+  <div class="col-6">
+    <main class="form-login w-100 m-auto ">
+      <form>
+        <h1 class="h3 mb-3 fw-normal">Login</h1>
+
+        <div class="form-floating">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" name="l-email"
+            [(ngModel)]="loginDetails.email">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="l-password"
+            [(ngModel)]="loginDetails.password">
+          <label for="floatingPassword">Password</label>
+        </div>
+
+
+        <button class="w-100 btn btn-lg btn-primary" (click)="login()" type="submit">Login</button>
+      </form>
+    </main>
+  </div>
+  <div class="col-6">
+    <main class="form-signin w-100 m-auto ps-3 border-start border-3">
+      <form>
+        <h1 class="h3 mb-3 fw-normal">Sign up</h1>
+        <div class="form-floating">
+          <input type="email" class="form-control" id="lfirst" placeholder="name@example.com" name="s-first"
+            [(ngModel)]="signUpDetails.firstName">
+          <label for="lfirst">First Name</label>
+        </div>
+        <div class="form-floating">
+          <input type="email" class="form-control" id="llast" placeholder="name@example.com" name="s-last"
+            [(ngModel)]="signUpDetails.lastName">
+          <label for="llast">Last Name</label>
+        </div>
+
+        <div class="form-floating">
+          <input type="email" class="form-control" id="lemail" placeholder="name@example.com" name="s-email"
+            [(ngModel)]="signUpDetails.email">
+          <label for="lemail">Email address</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="lpassword" placeholder="Use strong password" name="s-password"
+            [(ngModel)]="signUpDetails.password">
+          <label for="lpassword">Password</label>
+        </div>
+
+        <button class="w-100 btn btn-lg btn-primary" (click)="signUp()" type="submit">Sign Up</button>
+      </form>
+    </main>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+<div class="mb-3">
+  <label for="datedOn">Dated On</label>
+  <input readonly class="form-control" id="datedOn" [(ngModel)]="currentJournal.datedOn">
+</div>
+<div class="mb-3">
+  <label for="titleInput" class="form-label">Title</label>
+  <input type="text" class="form-control" id="titleInput" [(ngModel)]="currentJournal.title">
+</div>
+<div class="mb-3">
+  <label for="bodyInput" class="form-label">Body</label>
+  <textarea class="form-control" id="bodyInput" rows="3" [(ngModel)]="currentJournal.body"></textarea>
+</div>
+
+<div class="col-md-3 text-start">
+  <button type="button" class="btn btn-outline-primary me-2" (click)="submit()">Submit</button>
+  <a type="button" class="btn btn-primary" href="">Back</a>
+</div>
